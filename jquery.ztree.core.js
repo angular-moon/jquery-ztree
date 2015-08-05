@@ -10,7 +10,7 @@
  * email: hunter.z@263.net
  * Date: 2014-05-08
  */
- //@require zTreeStyle.css
+ 
 (function($){
 	var settings = {}, roots = {}, caches = {},
 	//default consts of core

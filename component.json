@@ -4,11 +4,12 @@
     "name": "jquery-ztree",
     "main": "jquery.ztree.core.js",
     "dependencies": [
-        "jquery@1.8.3"
+        "jquery@1.8.3",
+        "css"
     ],
     "shim": {
         "jquery.ztree.core.js": {
-            "deps": ["jquery"]
+            "deps": ["jquery", "css!zTreeStyle.css"]
         },
          "jquery.ztree.excheck.js": {
             "deps": ["jquery"]
